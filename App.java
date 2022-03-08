@@ -1,20 +1,15 @@
 public class App {
   public static void main(String[] args){
-    //変数宣言
-    int n1 = 25;
-    int n2 = 2;
-    String operator = "/";
-    
-   //宣言した変数を利用して表示
-   System.out.println(n1 + operator + n2 + "=");
-   if (operator == "/"){
-     System.out.println(n1 / (double)n2);
-   } else if (operator.equals("*")){
-     System.out.println(n1 * (double)n2);
-   } else if (operator == "+"){
-     System.out.println(n1 + (double)n2);
-   } else if (operator.equals("-")){
-     System.out.println(n1 - (double)n2);
-   }
+    for (int i = 0;i <= 20; i++){
+      if (i % 3 == 0 && i % 5 == 0){
+        System.out.println("FizzBuzz");
+      } else if (i % 3 == 0){
+        System.out.println("Fizz");
+      } else if (i % 5 == 0){
+        System.out.println("Buzz");
+      } else {
+        System.out.println(i);
+      }
+    }
   }
 }
