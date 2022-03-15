@@ -1,9 +1,7 @@
 public class App {
   public static void main(String[] args){
-    char zodiac; zodiac = '辰';
-    String name; name = "すがわら";
+    int age = 22;
 
-    System.out.println(zodiac);
-    System.out.println(name);
+    System.out.println(age);
   }
 }
