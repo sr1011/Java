@@ -1,13 +1,9 @@
 public class App {
   public static void main(String[] args){
-    byte glasses; glasses = 2;
-    short age; age = 18;
-    int salary; salary = 152000;
-    long worldPeople; worldPeople = 6900000000L;
+    float weight; weight = 67.5F;
+    double height; height = 171.2;
 
-    System.out.println(glasses);
-    System.out.println(age);
-    System.out.println(salary);
-    System.out.println(worldPeople);
+    System.out.println(weight);
+    System.out.println(height);
   }
 }
