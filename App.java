@@ -1,12 +1,7 @@
 public class App {
   public static void main(String[] args){
-    final double PI  = 3.14;
-    int pie = 5;
-    System.out.println("半径" + pie + "cmのパイの面積は、");
-    System.out.println(pie * pie * PI);
-    System.out.println("パイの半径を倍にします");
-    pie = 10;
-    System.out.println("半径" + pie + "cmのパイの面積は、");
-    System.out.println(pie * pie * PI);
+    int a = 3, b = 5;
+    System.out.print("縦幅" + a + "横幅" + b + "の長方形の面積は、");
+    System.out.println(a * b);
   }
 }
