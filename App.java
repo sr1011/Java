@@ -1,9 +1,9 @@
 public class App {
   public static void main(String[] args){
-    boolean isError; isError = true;
-    boolean result; result = false;
+    char zodiac; zodiac = '辰';
+    String name; name = "すがわら";
 
-    System.out.println(isError);
-    System.out.println(result);
+    System.out.println(zodiac);
+    System.out.println(name);
   }
 }
