@@ -1,8 +1,7 @@
 public class App {
   public static void main(String[] args){
-    int a;
-    a = 100;
-    a++;
-    System.out.println(a);
+    int a = 10, b = 10;
+    System.out.println(++a + 50);
+    System.out.println(b++ + 50);
   }
 }
