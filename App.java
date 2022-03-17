@@ -1,8 +1,8 @@
 public class App {
   public static void main(String[] args){
-    double d = 8.5 / 2;
-    long l = 5 + 2L;
-    System.out.println(d);
-    System.out.println(l);
+    String name = "すがわら";
+    String message;
+    message = name + "さん、こんにちは";
+    System.out.println(message);
   }
 }
