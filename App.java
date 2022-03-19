@@ -1,11 +1,9 @@
 public class App {
   public static void main(String[] args){
-    boolean tenki = true;
-    if (tenki == true){
-    System.out.println("選択をします。");
-    System.out.println("散歩に行きます。");
-    } else {
-      System.out.println("DVDを見ます。");
+    boolean doorClose = true;
+    whili (doorClose == true){
+    System.out.println("ノックする");
+    System.out.println("1分待つ");
     }
   }
 }
