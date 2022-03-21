@@ -1,11 +1,14 @@
 public class App {
   public static void main(String[] args){
-    for (int i = 1; i < 10; i++) {
-      for (int j = 1; j < 10; j++){
-        System.out.print(i * j);
-        System.out.print(" ");
-      }
-      System.out.println(" ");
+    int isHungry = 1;
+    String food = "焼肉";
+    System.out.println("こんにちは");
+    if (isHungry == 0){
+      System.out.println("お腹がいっぱいです");
+    } else {
+      System.out.println("腹ペコです");
+      System.out.println(food + "をいただきます");
+      System.out.println("ごちそうさまでした");
     }
   }
 }
