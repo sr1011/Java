@@ -1,14 +1,15 @@
 public class App {
   public static void main(String[] args){
-    int isHungry = 1;
-    String food = "焼肉";
-    System.out.println("こんにちは");
-    if (isHungry == 0){
-      System.out.println("お腹がいっぱいです");
-    } else {
-      System.out.println("腹ペコです");
-      System.out.println(food + "をいただきます");
-      System.out.println("ごちそうさまでした");
+    System.out.print("[メニュー] 1:検索 2:登録 3:削除 4:変更");
+    int select = new java.util.Scanner(System.in) .nextInt();
+    if (select == 1){
+      System.out.println("検索します");
+    } else if (select == 2){
+      System.out.println("登録します");
+    } else if (select == 3){
+      System.out.println("削除します");
+    } else if (select == 4){
+      System.out.println("変更します");
     }
   }
 }
