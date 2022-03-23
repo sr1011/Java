@@ -7,20 +7,8 @@ public class App {
       }
 
       for (int i = 0; i < seq.length; i++) {
-        switch (seq[i]) {
-          case 0:
-            System.out.println("A");
-            break;
-          case 1:
-            System.out.println("T");
-            break;
-          case 2:
-            System.out.println("G");
-            break;
-          case 3:
-            System.out.println("C");
-            break;
-        }
+        char[] base = {'A', 'T', 'G', 'C'};
+        System.out.println(base[seq[i]] + " ");
       }
     }
 }
