@@ -1,6 +1,6 @@
 public class App {
   public static void main(String[] args){
-    System.out.println(add(add(10, 20), add(30, 40)));
+    System.out.println("100 + 10 = " + add(100, 10));
   }
   public static int add (int x, int y) {
     int ans = x + y;
