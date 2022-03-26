@@ -4,6 +4,7 @@ public class App {
     printArray(array);
   }
   public static void printArray (int[] array) {
+    array[0] = 100;
     for (int element : array) {
       System.out.println(element);
     }
