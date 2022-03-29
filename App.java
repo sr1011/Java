@@ -1,20 +1,11 @@
 public class App {
   public static void main(String[] args){
-    String title = "test";
-    String address = "アドレス";
-    String text = "testtext";
-    email(address, text);
+    double triangleArea = calcTriangleArea(6.0, 2.0);
+    System.out.println("面積：" + triangleArea);
   }
 
-  public static void email(String title, String address, String text) {
-    System.out.println(address + "に、以下のメールを送信しました");
-    System.out.println("件名：" + title);
-    System.out.println("本文：" + text);
-  }
-
-  public static void email(String address, String text) {
-    System.out.println(address + "に、以下のメールを送信しました");
-    System.out.println("件名：無題");
-    System.out.println("本文：" + text);
+  public static double calcTriangleArea(double bottom, double height) {
+    double area = (bottom * height) / 2;
+    return area;
   }
 }
