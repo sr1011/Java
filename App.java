@@ -1,11 +1,16 @@
 public class App {
   public static void main(String[] args){
-    double triangleArea = calcTriangleArea(6.0, 2.0);
-    System.out.println("面積：" + triangleArea);
+    int a = 10; int b = 2;
+    int total = tasu(a, b);
+    int delta = hiku(a, b);
+    System.out.println("足すと" + total + "、引くと" + delta);
   }
 
-  public static double calcTriangleArea(double bottom, double height) {
-    double area = (bottom * height) / 2;
-    return area;
+  public static int tasu(int a, int b) {
+    return (a + b);
+  }
+
+  public static int hiku(int a, int b){
+    return (a - b);
   }
 }
