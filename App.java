@@ -1,9 +1,9 @@
 public class App {
   public static void main(String[] args){
-    int[] heights = {172, 149, 152, 191,155};
-    java.util.Arrays.sort(heights);
-    for (int h : heights) {
-      System.out.println(h);
-  }
+    // (以下の内容をJavaで記述していく)
+    // 勇者よ、この仮想世界に生まれよ！
+    // おばけキノコよ、この仮想世界に生まれよ！
+    // 勇者よ、戦え！
+    // おばけキノコよ、逃げろ！
   }
 }
