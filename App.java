@@ -1,9 +1,14 @@
 public class App {
   public static void main(String[] args){
-    // (以下の内容をJavaで記述していく)
-    // 勇者よ、この仮想世界に生まれよ！
-    // おばけキノコよ、この仮想世界に生まれよ！
-    // 勇者よ、戦え！
-    // おばけキノコよ、逃げろ！
+    // 勇者を生成
+    Hero h = new Hero();
+    // フィールドに初期化をセット
+    h.name = "ミナト";
+    h.hp = 100;
+    System.out.println("勇者" + h.name + "を生み出しました！");
+    h.sit(5);
+    h.slip();
+    h.sit(25);
+    h.run();
   }
 }
